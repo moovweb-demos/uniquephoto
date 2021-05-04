@@ -1,0 +1,22 @@
+{
+  "name": "layer0-traditional-poc-template",
+  "devDependencies": {
+    "@layer0/cli": "^3.4.0",
+    "@layer0/core": "^3.4.0",
+    "@layer0/devtools": "^3.4.0",
+    "@layer0/prefetch": "^3.4.0",
+    "@layer0/starter": "^3.4.0",
+    "@types/cheerio": "^0.22.28",
+    "@types/node": "^13.13.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3",
+    "cheerio": "^1.0.0-rc.6"
+  },
+  "scripts": {
+    "start": "layer0 dev",
+    "build": "layer0 build",
+    "prod": "layer0 run --production",
+    "deploy": "layer0 deploy --team=demos"
+  },
+  "dependencies": {}
+}
