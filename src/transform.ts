@@ -14,7 +14,7 @@ export default function transform(response: Response, request: Request) {
     // Those 2 scripts are added using server side transformation just for Proof of Concept purposes.
     // For production those 2 scripts should be included in original website base code.
     $('head').append(`
-      <script src="/__xdn__/cache-manifest.js" defer="defer"></script>
+      <script src="/__layer0__/cache-manifest.js" defer="defer"></script>
       <script src="/main.js" defer="defer"></script>
     `)
 
